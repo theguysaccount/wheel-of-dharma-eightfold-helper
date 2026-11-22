@@ -177,6 +177,10 @@ figure.quote figcaption { font-size: 0.85rem; color: var(--soft); margin: 6px 0 
   .wheel { max-width: 320px; margin: 0 auto; }
 }
 
+.move-notice { background: var(--warn); color: var(--warn-ink); border-radius: 8px; padding: 10px 14px; margin: 18px 0 0; }
+.move-notice p { margin: 0; }
+.move-notice a { color: inherit; font-weight: 600; }
+
 /* guides */
 .doc main { font-size: 1.05rem; }
 .doc main > p, .doc main > ul, .doc main > ol, .doc main > h2, .doc main > h3, .doc main > blockquote, .doc main > .lede { max-width: 44em; }

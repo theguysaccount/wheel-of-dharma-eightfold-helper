@@ -20,6 +20,7 @@ concurrency:
 env:
   # The one setting that moves the site to a custom domain (see OPERATIONS.md, key 1).
   SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+  MOVE_NOTICE_URL: ${{ vars.MOVE_NOTICE_URL }}   # optional: the new address, a few weeks before a domain move (OPERATIONS.md, key 1)
   GOATCOUNTER_URL: ${{ vars.GOATCOUNTER_URL }}   # optional key: cookieless page counts
   SUPPORT_URL: ${{ vars.SUPPORT_URL }}           # optional key: donation link (e.g. GitHub Sponsors)
   SUPPORT_LABEL: ${{ vars.SUPPORT_LABEL }}

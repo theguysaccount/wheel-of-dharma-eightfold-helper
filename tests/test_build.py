@@ -48,7 +48,7 @@ class Refs(HTMLParser):
 def make(env=None):
     out = Path(tempfile.mkdtemp())
     with mock.patch.dict(os.environ, env or {}, clear=False):
-        for k in ("SITE_URL", "GOATCOUNTER_URL", "SUPPORT_URL", "SUPPORT_LABEL"):
+        for k in ("SITE_URL", "MOVE_NOTICE_URL", "GOATCOUNTER_URL", "SUPPORT_URL", "SUPPORT_LABEL"):
             if k not in (env or {}):
                 os.environ.pop(k, None)
         site = build.Site(out, build.dt.date.today()).build()
@@ -148,6 +148,16 @@ class BuildTest(unittest.TestCase):
         self.assertNotIn("gc.zgo.at", default_home)
         self.assertNotIn("Support this site", default_home)
         self.assertIn('href="/wheel-of-dharma-eightfold-helper/assets/site.css', (self.out / "404.html").read_text())
+
+    def test_a_move_notice_appears_only_when_set(self):
+        self.assertNotIn("move-notice", (self.out / "index.html").read_text())
+        site, out = make({"MOVE_NOTICE_URL": "https://new.example.org/"})
+        for page in (out / "index.html", out / "about" / "index.html"):
+            html = page.read_text()
+            self.assertIn('class="move-notice"', html)
+            self.assertIn('href="https://new.example.org/"', html)
+        with self.assertRaises(SystemExit):
+            make({"MOVE_NOTICE_URL": "javascript:alert(1)"})
 
 
 if __name__ == "__main__":
