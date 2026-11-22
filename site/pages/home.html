@@ -1,0 +1,114 @@
+<!--
+{
+  "path": "",
+  "title": "Eightfold path self-check: which factors need attention? | Eightfold Helper",
+  "description": "A free, private self-check on the eight factors of the Noble Eightfold Path, as the early discourses define them, with practices for the factors that need attention, each grounded in a quoted passage.",
+  "og": "home",
+  "nav": "",
+  "scripts": ["helper.js"],
+  "body_class": "app",
+  "jsonld": [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Eightfold Helper",
+      "url": "{{site_url}}/",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Any",
+      "isAccessibleForFree": true,
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+      "description": "A private self-reflection on the eight factors of the Noble Eightfold Path, with practices grounded in public-domain translations of the early Buddhist discourses."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": "{{faq}}"
+    }
+  ],
+  "faq": [
+    ["Is this a test of how good a Buddhist I am?", "No. It's a private reflection aid. Nobody can measure spiritual progress with a questionnaire, and this doesn't try. It simply helps you notice which parts of the path you might give attention to next."],
+    ["Where do the statements come from?", "Each statement follows the definition of its factor in the early discourses, mostly the 'Analysis' discourse (SN 45.8). The definitions themselves are quoted with each result."],
+    ["Are my answers stored anywhere?", "No. Everything happens in your browser. Your results are kept only in this browser's storage, so you can compare later checks, and a share link carries only your eight scores."],
+    ["Whose translations are quoted?", "Bhikkhu Sujato's English translations, published by SuttaCentral and dedicated to the public domain (CC0). Every quotation links to the full discourse."],
+    ["Is this affiliated with a Buddhist organisation?", "No. It's an independent, free site. It isn't a substitute for a teacher or a community, and it doesn't speak for any tradition."]
+  ]
+}
+-->
+<noscript><p class="check bad">The self-check needs JavaScript. The chapters on <a href="path/">the eight factors</a> work without it.</p></noscript>
+
+<section id="start">
+  <div class="hero">
+    <h1>Which parts of the path need your attention?</h1>
+    <p class="lede">A private self-check on the eight factors of the Noble Eightfold Path, as the early Buddhist discourses define them. You'll see your wheel, and practices for the factors that need attention, each grounded in a quoted passage.</p>
+  </div>
+  <div class="two-choice">
+    <div class="card">
+      <h2>Quick check</h2>
+      <p>Tick the factors you feel steady in. The rest are where to start. About a minute.</p>
+      <button id="go-quick" class="btn" type="button">Start the quick check</button>
+    </div>
+    <div class="card">
+      <h2>Full check</h2>
+      <p>Rate {{statement_count}} short statements drawn from the definitions of each factor. About five minutes.</p>
+      <button id="go-full" class="btn" type="button">Start the full check</button>
+    </div>
+  </div>
+  <div class="limits">
+    <h2>Before you begin</h2>
+    <ul>
+      <li>This is for reflection, not a measure of spiritual progress. No questionnaire can measure that.</li>
+      <li>It isn't a substitute for a teacher or a community, and it doesn't speak for any tradition.</li>
+      <li>Your answers never leave your browser.</li>
+    </ul>
+  </div>
+  {{money_slot}}
+  <section>
+    <h2>The eight factors</h2>
+    <p>Right view, right intention, right speech, right action, right livelihood, right effort, right mindfulness and right concentration. <a href="path/">Read about each factor</a>, with its definition from the discourses, practices and questions for reflection.</p>
+  </section>
+  <section>
+    <h2>Questions</h2>
+    {{faq_html}}
+  </section>
+</section>
+
+<section id="quick" hidden>
+  <h1>Quick check</h1>
+  <p class="lede">Tick the factors you feel steady in, today. Leave the others unticked.</p>
+  <div id="quick-list" class="ticks"></div>
+  <div class="btn-row">
+    <button id="quick-done" class="btn big" type="button">See my wheel</button>
+    <button class="btn secondary" type="button" data-restart>Back</button>
+  </div>
+</section>
+
+<section id="full" hidden>
+  <h1>Full check</h1>
+  <p class="lede">How true is each statement of you, these days? There are no right answers; honest ones help most.</p>
+  <div id="full-list"></div>
+  <div class="sticky-bar">
+    <span id="full-progress" class="small" aria-live="polite"></span>
+    <button id="full-done" class="btn" type="button" disabled>See my wheel</button>
+    <span id="full-hint" class="small">Answer every statement to continue.</span>
+  </div>
+</section>
+
+<section id="result" hidden>
+  <h1 tabindex="-1">Your wheel</h1>
+  <p id="shared-note" class="small" hidden>This is a result someone shared. <button class="btn small secondary" type="button" data-restart>Take the check yourself</button></p>
+  <div class="result-top">
+    <div id="result-wheel"></div>
+    <div>
+      <p id="result-lead" class="lead"></p>
+      <ul id="result-list" class="result-list"></ul>
+      <p class="legend small"><span class="dot g-wisdom"></span> wisdom <span class="dot g-ethics"></span> ethics <span class="dot g-immersion"></span> meditation</p>
+    </div>
+  </div>
+  <h2>Where to start</h2>
+  <div id="focus"></div>
+  <h2>Keep or share your result</h2>
+  <p>The link holds only your eight scores. Anyone you send it to will see this wheel.</p>
+  <p><input id="share-link" class="mono" type="text" readonly aria-label="Link to this result"> <button id="copy" class="btn small" type="button">Copy link</button></p>
+  <div id="history-wrap" hidden><h3>Your earlier checks in this browser</h3><ul id="history"></ul></div>
+  <div class="btn-row"><button class="btn secondary" type="button" data-restart>Check again</button> <a class="btn secondary" href="path/">Read about the eight factors</a></div>
+</section>

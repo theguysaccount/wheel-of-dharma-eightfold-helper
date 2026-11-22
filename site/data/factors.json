@@ -1,0 +1,230 @@
+{
+  "about": "The eight path factors in their traditional order. Definitions quote SN 45.8; statements for the self-check follow those definitions; practices and chapters quote the passages in sources.json. Commentary is this site's own, kept short and plain.",
+  "scale": ["Rarely", "Sometimes", "Often", "Usually", "Almost always"],
+  "groups": {
+    "wisdom": "Wisdom",
+    "ethics": "Ethics",
+    "immersion": "Meditation"
+  },
+  "factors": [
+    {
+      "id": "view",
+      "slug": "right-view",
+      "name": "Right view",
+      "pali": "sammā diṭṭhi",
+      "rendering": "right view",
+      "group": "wisdom",
+      "short": "Seeing how suffering arises and ends, and testing ideas against experience.",
+      "def": "def-view",
+      "statements": [
+        "When I'm unhappy, I look at what I'm craving or resisting, not only at what happened to me.",
+        "I test teachings and opinions against my own experience before I accept them.",
+        "I see my choices as having consequences, for me and for others."
+      ],
+      "chapter": [
+        "The discourses define right view as understanding four things: suffering, where it comes from, its ending, and the way to its end. These are the four noble truths, and the eightfold path is the fourth of them.",
+        "Right view is less a belief to hold than a way of looking. One discourse says that right view comes first, and explains: when you understand wrong view as wrong view and right view as right view, that is right view. It guides the other factors, and practising them deepens it.",
+        "The same teachings ask people not to accept things merely on authority, but to see for themselves what leads to harm and what to welfare. That makes right view something you check in your own life, often."
+      ],
+      "quotes": ["view-first", "kalamas", "intention-leads-1"],
+      "practices": [
+        {"title": "Trace one dissatisfaction", "quote": "def-view", "steps": "Once a day, when something bothers you, pause and ask: what am I wanting here that I'm not getting, or pushing away that's here anyway? Notice whether seeing the wanting changes the feeling."},
+        {"title": "Know for yourself", "quote": "kalamas", "steps": "Pick one belief you hold about how to live well. This week, watch your own experience: does acting on it lead to harm or to welfare, for you and for others? Write down what you see."},
+        {"title": "Follow an intention", "quote": "intention-leads-1", "steps": "Each evening, recall one thing you said or did and the intention behind it. Then notice what followed from it, inside you and around you."}
+      ],
+      "questions": ["What am I most often wanting when I feel unsettled?", "Which of my views have I tested, and which have I just inherited?", "Where have I seen my intentions shape what followed?"]
+    },
+    {
+      "id": "intention",
+      "slug": "right-intention",
+      "name": "Right intention",
+      "pali": "sammā saṅkappa",
+      "rendering": "right purpose",
+      "group": "wisdom",
+      "short": "Leaning towards letting go, good will and harmlessness.",
+      "def": "def-intention",
+      "statements": [
+        "I can let go of wanting something when the wanting causes trouble.",
+        "My first response to people, even difficult ones, is to wish them well.",
+        "I notice and drop thoughts of harming someone or getting back at them."
+      ],
+      "chapter": [
+        "Bhikkhu Sujato translates this factor as right purpose; others say right intention or right thought. The discourses define it in three parts: renunciation, good will and harmlessness. Each is the opposite of a pull the mind often feels: grasping, ill will and cruelty.",
+        "A well-known discourse describes sorting thoughts into two kinds, those of sensuality, ill will and cruelty, and those of renunciation, good will and harmlessness, and observes that whatever we think about often becomes the inclination of the heart. Intention is shaped by practice, one thought at a time.",
+        "Renunciation here doesn't have to mean giving everything up. It can start with putting down one want that is causing trouble, and noticing the ease of not carrying it."
+      ],
+      "quotes": ["two-kinds-of-thought", "heart-inclines", "hatred-love"],
+      "practices": [
+        {"title": "Two kinds of thought", "quote": "two-kinds-of-thought", "steps": "For one day, sort your thoughts as they come: does this one lean towards grasping, ill will or harm, or towards letting go, good will and harmlessness? Don't fight the first kind; just label it, and see what happens to it."},
+        {"title": "Wish someone well", "quote": "boundless-heart", "steps": "Three times today, silently wish someone well: someone you love, someone you hardly know, and someone you find difficult. Short and sincere is enough: may you be well."},
+        {"title": "Put one want down", "quote": "def-intention", "steps": "Choose one small want that keeps pulling at you, such as checking your phone, a snack, a purchase. Let it go for a day, and notice what the letting go feels like."}
+      ],
+      "questions": ["Which thoughts do I return to most often, and where do they incline my heart?", "Who do I find hardest to wish well, and why?", "What is one thing I could stop carrying?"]
+    },
+    {
+      "id": "speech",
+      "slug": "right-speech",
+      "name": "Right speech",
+      "pali": "sammā vācā",
+      "rendering": "right speech",
+      "group": "ethics",
+      "short": "Speech that is true, unifying, gentle and worth saying.",
+      "def": "def-speech",
+      "statements": [
+        "I say what is true, even when a small lie would be easier.",
+        "I avoid talking about people in ways that turn others against them.",
+        "I speak gently, even when I'm annoyed.",
+        "I avoid idle talk that serves no purpose."
+      ],
+      "chapter": [
+        "Right speech is defined by four abstentions: from false speech, divisive speech, harsh speech and pointless talk. Put the other way round, it is speech that is true, that brings people together, that is gentle, and that is worth saying.",
+        "Another discourse lists five marks of well-spoken words: timely, true, gentle, beneficial and loving. It's a short checklist that fits in the pause before speaking.",
+        "Speech now includes messages, posts and comments. The same four abstentions apply to everything we write."
+      ],
+      "quotes": ["well-spoken", "none-deceive"],
+      "practices": [
+        {"title": "Five checks before speaking", "quote": "well-spoken", "steps": "Before an important conversation or message, check it against the five marks: is it timely, true, gentle, beneficial and said with good will? If one is missing, wait or rephrase."},
+        {"title": "A day without backbiting", "quote": "def-speech", "steps": "For one day, say nothing about anyone who isn't there that you wouldn't say if they were. Notice how often the urge comes up, and what it's made of."},
+        {"title": "Say the true thing kindly", "quote": "none-deceive", "steps": "Think of one thing you've avoided saying because it's uncomfortable but true. Find a gentle way to say it, at a good time, and say it."}
+      ],
+      "questions": ["When am I most tempted to bend the truth?", "Do my words about absent people bring others closer or push them apart?", "What would change if everything I wrote online passed the five checks?"]
+    },
+    {
+      "id": "action",
+      "slug": "right-action",
+      "name": "Right action",
+      "pali": "sammā kammanta",
+      "rendering": "right action",
+      "group": "ethics",
+      "short": "Not harming living beings, not taking what isn't given, and care in sexual conduct.",
+      "def": "def-action",
+      "statements": [
+        "I go out of my way not to harm living beings.",
+        "I don't take what isn't freely given, even in small ways.",
+        "I keep my commitments in intimate relationships and don't cause harm through sex."
+      ],
+      "chapter": [
+        "The discourses define right action as refraining from killing, from stealing and from sexual misconduct. Bhikkhu Sujato's translation of this definition says \"unchastity\", the standard for monastics; for lay followers the traditional precept is to avoid sexual misconduct.",
+        "One of the best-known teachings on action is advice the Buddha gave his young son, Rāhula: use your actions the way you use a mirror. Before acting, while acting and afterwards, check whether this leads to harming yourself, harming others, or both.",
+        "Right action isn't only refraining. Each abstention has a positive side: protecting life, generosity, and care and faithfulness in relationships."
+      ],
+      "quotes": ["mirror", "mirror-before"],
+      "practices": [
+        {"title": "The mirror", "quote": "mirror", "steps": "For one week, before any action that matters, ask: will this hurt me, hurt others, or both? Ask again while you're doing it, and once more afterwards. If the answer is yes, stop, or make it right."},
+        {"title": "Protect one life", "quote": "def-action", "steps": "Choose one small way to protect life this week: carry an insect outside, check on a neighbour, drive more slowly. Notice how it feels to act from care."},
+        {"title": "Give before you take", "quote": "none-deceive", "steps": "Look for one place where you take more than is freely offered, such as time, credit or office supplies. Put it right, and give something freely instead."}
+      ],
+      "questions": ["What action of mine would I not want to see in a mirror?", "Where in my life could I protect rather than merely not harm?", "Am I fully honest about what is freely given to me?"]
+    },
+    {
+      "id": "livelihood",
+      "slug": "right-livelihood",
+      "name": "Right livelihood",
+      "pali": "sammā ājīva",
+      "rendering": "right livelihood",
+      "group": "ethics",
+      "short": "Earning a living in ways that don't harm others, and using wealth well.",
+      "def": "def-livelihood",
+      "statements": [
+        "The way I earn my living doesn't harm people or animals.",
+        "I'm honest in my work, with customers, colleagues and employers.",
+        "I use what I earn wisely: for my needs, for others, and to stay out of debt."
+      ],
+      "chapter": [
+        "Right livelihood is defined simply: giving up wrong livelihood and earning a living by right livelihood. Another discourse names five trades a lay follower should avoid: trade in weapons, living creatures, meat, intoxicants and poisons.",
+        "The teaching isn't against earning. One discourse describes four kinds of happiness open to a householder: owning wealth earned honestly, using it well, being free of debt, and blameless conduct, and calls the last the greatest.",
+        "Most work today is far from the five trades, but the question stays the same: does the way I earn and spend harm others, and could it help them?"
+      ],
+      "quotes": ["five-trades", "four-happinesses", "blamelessness", "bees"],
+      "practices": [
+        {"title": "Look at your work honestly", "quote": "five-trades", "steps": "Write down what your work produces and who it affects. Where does it help? Where might it harm? Choose one small change within your reach."},
+        {"title": "The happiness of blamelessness", "quote": "blamelessness", "steps": "At the end of each working day this week, ask: was my conduct today blameless in body, speech and mind? Notice the ease when the answer is yes."},
+        {"title": "Find one drain", "quote": "six-drains", "steps": "Look at a month of your spending. Find one habit that drains money and doesn't serve you or anyone else, and let it go for a month."}
+      ],
+      "questions": ["Who benefits from my work, and who might bear its costs?", "Is there anything about how I earn that I'd rather people didn't know?", "How much of what I have is used for others?"]
+    },
+    {
+      "id": "effort",
+      "slug": "right-effort",
+      "name": "Right effort",
+      "pali": "sammā vāyāma",
+      "rendering": "right effort",
+      "group": "immersion",
+      "short": "Preventing and letting go of the unhelpful; growing and keeping the helpful.",
+      "def": "def-effort",
+      "statements": [
+        "I notice early when an unhelpful mood or habit is starting, and step back from it.",
+        "When I'm caught up in anger or craving, I make an effort to let it go.",
+        "I deliberately cultivate good qualities like patience, generosity or kindness.",
+        "I keep up the good habits I've started."
+      ],
+      "chapter": [
+        "Right effort has four parts: preventing unskilful qualities that haven't arisen, giving up those that have, developing skilful qualities that haven't arisen, and keeping and growing those that have. A discourse calls them the efforts to restrain, to give up, to develop and to preserve.",
+        "It is effort with a direction, not strain. The same energy that pushes can also let go.",
+        "In practice it often starts small: noticing the first flicker of irritation, putting down a habit, choosing a kind word, and coming back to a good practice after a lapse."
+      ],
+      "quotes": ["four-efforts", "restraint"],
+      "practices": [
+        {"title": "Four efforts, one habit", "quote": "four-efforts", "steps": "Pick one area of life. Name one thing to prevent, one to give up, one to start and one to keep. Check in with all four at the end of each day this week."},
+        {"title": "Guard the senses for an hour", "quote": "restraint", "steps": "For one hour, notice what you look at, listen to and scroll through. When something feeds craving or irritation, look away from its details, gently."},
+        {"title": "Water the good", "quote": "def-effort", "steps": "Choose one good quality you already have, such as patience, humour or generosity. Use it deliberately once a day this week, and notice it growing."}
+      ],
+      "questions": ["What unhelpful habit could I catch earlier?", "Is my effort tense or steady?", "Which good quality do I take for granted, and could deliberately grow?"]
+    },
+    {
+      "id": "mindfulness",
+      "slug": "right-mindfulness",
+      "name": "Right mindfulness",
+      "pali": "sammā sati",
+      "rendering": "right mindfulness",
+      "group": "immersion",
+      "short": "Clear, steady awareness of body, feelings, mind and experience.",
+      "def": "def-mindfulness",
+      "statements": [
+        "During the day, I'm aware of my body: posture, breath, movement.",
+        "I notice whether something feels pleasant, unpleasant or neutral before I react to it.",
+        "I can recognise my state of mind, such as calm, restless or irritated, as it is.",
+        "I can see which patterns of mind help and which hinder."
+      ],
+      "chapter": [
+        "Right mindfulness is defined as observing four things: the body, feelings, the mind, and principles (Pali dhammas), each \"keen, aware, and mindful, rid of covetousness and displeasure for the world\". These are the four kinds of mindfulness meditation.",
+        "Feelings here mean the simple tone of experience, pleasant, unpleasant or neutral, which comes before the emotions we build on it. Noticing that tone is often where a reaction can be caught.",
+        "Mindfulness in the discourses is remembering to be present, and it serves a purpose: seeing clearly what helps and what harms, so that the other factors can do their work."
+      ],
+      "quotes": ["mindfulness-path", "breathing-know"],
+      "practices": [
+        {"title": "Breathing, knowing", "quote": "breathing-know", "steps": "Several times a day, stop for three breaths. Know each one as it is: long or short, deep or shallow. Then carry on."},
+        {"title": "Pleasant, unpleasant, neutral", "quote": "def-mindfulness", "steps": "For one day, notice the feeling tone of experiences as they come. Name it silently, pleasant, unpleasant, or neither, before you react."},
+        {"title": "The weather of the mind", "quote": "def-mindfulness", "steps": "Set a few reminders during the day. When one goes off, notice your state of mind in a word or two, without judging it: distracted, warm, tense, bright."}
+      ],
+      "questions": ["How often do I notice my body during an ordinary day?", "What do I usually do in the moment after something unpleasant?", "Which states of mind do I recognise quickly, and which only afterwards?"]
+    },
+    {
+      "id": "concentration",
+      "slug": "right-concentration",
+      "name": "Right concentration",
+      "pali": "sammā samādhi",
+      "rendering": "right immersion",
+      "group": "immersion",
+      "short": "A collected, unified mind, developed in stillness.",
+      "def": "def-concentration",
+      "statements": [
+        "I have regular times of quiet sitting or stillness.",
+        "I can keep my attention on one thing, like the breath, for a while.",
+        "In stillness, my mind sometimes settles and becomes collected."
+      ],
+      "chapter": [
+        "Bhikkhu Sujato translates this factor as right immersion; others say right concentration or right stillness. The discourses define it as four stages of absorption (jhāna), states of deep, unified stillness described with care in the text quoted below.",
+        "Another discourse calls right immersion the unification of mind supported by the other seven factors. In that view it isn't a technique on its own: it grows from ethical living, effort and mindfulness, and in turn supports them.",
+        "For most people the first steps are simple: a regular time to sit, a quiet place, and the breath as something to return to. Experienced teachers are worth seeking out for anything deeper."
+      ],
+      "quotes": ["seven-supports", "breathing-sit"],
+      "practices": [
+        {"title": "Sit and settle", "quote": "breathing-sit", "steps": "Sit upright somewhere quiet for ten minutes a day this week. Let mindfulness rest on the breath. When you drift, come back. Keep the time and place the same."},
+        {"title": "One thing at a time", "quote": "seven-supports", "steps": "For one day, do one thing at a time: eat without reading, walk without your phone, listen without planning a reply. Notice how the mind gathers."},
+        {"title": "A little seclusion", "quote": "def-concentration", "steps": "Take half an hour this week away from screens and input, in quiet. Notice what the mind does when it isn't fed, and let it settle."}
+      ],
+      "questions": ["When is my mind most collected, and what helps it get there?", "What scatters my attention most often?", "Do I give stillness a regular place in my week?"]
+    }
+  ]
+}

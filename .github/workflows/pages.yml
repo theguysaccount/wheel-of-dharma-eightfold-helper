@@ -1,0 +1,89 @@
+# Test, build and deploy Eightfold Helper to GitHub Pages, test the live site, ping IndexNow.
+# Runs on every push to main, and when the weekly self-test finds the live site behind main.
+# Fails safe: any failed test stops before deploy, so the last good site stays live.
+name: Deploy site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+env:
+  # The one setting that moves the site to a custom domain (see OPERATIONS.md, key 1).
+  SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+  GOATCOUNTER_URL: ${{ vars.GOATCOUNTER_URL }}   # optional key: cookieless page counts
+  SUPPORT_URL: ${{ vars.SUPPORT_URL }}           # optional key: donation link (e.g. GitHub Sponsors)
+  SUPPORT_LABEL: ${{ vars.SUPPORT_LABEL }}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Unit tests
+        run: |
+          node --test tests/js/*.test.mjs
+          python3 -m unittest discover -s tests -v
+      - name: Build
+        run: python3 pipeline/build.py
+      - name: Drive the built site in headless Chrome
+        run: node scripts/e2e.mjs
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+      - uses: actions/upload-artifact@v7
+        with:
+          name: urls
+          path: dist/urls.txt
+          retention-days: 7
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+  after-deploy:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v8
+        with:
+          name: urls
+      - name: Wait until this commit is live
+        run: python3 scripts/check_live.py "$SITE_URL" --wait-for "$GITHUB_SHA"
+      - name: Drive the live site in headless Chrome
+        run: |
+          for attempt in 1 2 3; do
+            node scripts/e2e.mjs "$SITE_URL/" && exit 0
+            sleep 60
+          done
+          exit 1
+      - name: Tell search engines (IndexNow)
+        run: python3 scripts/indexnow.py urls.txt

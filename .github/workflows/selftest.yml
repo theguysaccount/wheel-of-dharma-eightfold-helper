@@ -1,0 +1,104 @@
+# Weekly: unit tests (including the content checks: every passage exists and is CC0, no medical or
+# therapeutic claims); every quotation re-checked word for word against SuttaCentral's published
+# translations and their CC0 license (a revised passage is updated and committed after the tests
+# pass; a license change or a vanished passage fails the run instead); the end-to-end run against
+# the LIVE site; every page, file and cited link; and a staleness check that redeploys when the live
+# build is older than main. A failure opens (or comments on) one ops-alert issue, which GitHub
+# emails to the repo owner; the next passing run closes it. Safe to re-run at any time.
+name: Weekly self-test
+
+on:
+  schedule:
+    - cron: "53 10 * * 6"         # Saturdays 10:53 UTC
+    - cron: "49 */4 22,23 11 *"   # TEMPORARY, proves the schedule trigger on 22-23 Nov; remove after the first scheduled run
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+env:
+  SITE_URL: ${{ vars.SITE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - name: Unit tests
+        run: |
+          node --test tests/js/*.test.mjs
+          python3 -m unittest discover -s tests
+      - name: Quotations match SuttaCentral word for word, and are still CC0
+        id: sources
+        run: |
+          out="$(python3 pipeline/sources.py --update)"
+          echo "$out"
+          case "$out" in changed*) echo "changed=true" >> "$GITHUB_OUTPUT" ;; esac
+      - name: Commit revised quotations
+        if: steps.sources.outputs.changed == 'true'
+        run: |
+          node --test tests/js/*.test.mjs
+          python3 -m unittest discover -s tests
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site/data/quotes.json
+          git commit -m "Quotations updated to match the source's current wording"
+          git push
+      - name: Drive the live site end to end
+        run: |
+          for attempt in 1 2; do
+            node scripts/e2e.mjs "$SITE_URL/" && exit 0
+            sleep 90
+          done
+          exit 1
+      - name: Every page, file and cited link; is the live build current?
+        id: live
+        if: always()
+        run: python3 scripts/check_live.py "$SITE_URL"
+      - name: Redeploy when the live site is behind main
+        if: always() && steps.live.outputs.stale == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main && echo "::notice::live site was behind main; redeploy dispatched"
+      - name: Record the failure in an issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh label create ops-alert --color B42318 --description "Automated health check failed" 2>/dev/null || true
+          run="$GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          open=$(gh issue list --label ops-alert --state open --json number --jq '.[0].number')
+          if [ -n "$open" ]; then
+            gh issue comment "$open" --body "Still failing: $run"
+          else
+            gh issue create --label ops-alert --title "Weekly self-test failed" --body "The weekly self-test failed: $run. The last good deploy is still live. See OPERATIONS.md for what each check means."
+          fi
+      - name: Close the alert after recovery
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label ops-alert --state open --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Self-test passing again: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          done
+
+  keepalive:
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - uses: actions/checkout@v7
+      - name: Keep scheduled workflows enabled
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: scripts/keepalive.sh

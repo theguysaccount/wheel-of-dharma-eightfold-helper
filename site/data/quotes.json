@@ -1,0 +1,626 @@
+{
+ "source": "SuttaCentral, translations by Bhikkhu Sujato (CC0)",
+ "quotes": {
+  "def-path": {
+   "cite": "SN 45.8:2.1–2.2",
+   "title": "Analysis",
+   "lines": [
+    "“And what is the noble eightfold path?",
+    "It is right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion."
+   ],
+   "segments": [
+    "sn45.8:2.1",
+    "sn45.8:2.2"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-view": {
+   "cite": "SN 45.8:3.1–3.3",
+   "title": "Analysis",
+   "lines": [
+    "And what is right view?",
+    "Knowing about suffering, the origin of suffering, the cessation of suffering, and the practice that leads to the cessation of suffering.",
+    "This is called right view."
+   ],
+   "segments": [
+    "sn45.8:3.1",
+    "sn45.8:3.2",
+    "sn45.8:3.3"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-intention": {
+   "cite": "SN 45.8:4.1–4.3",
+   "title": "Analysis",
+   "lines": [
+    "And what is right purpose?",
+    "The purpose of renunciation, good will, and harmlessness.",
+    "This is called right purpose."
+   ],
+   "segments": [
+    "sn45.8:4.1",
+    "sn45.8:4.2",
+    "sn45.8:4.3"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-speech": {
+   "cite": "SN 45.8:5.1–5.3",
+   "title": "Analysis",
+   "lines": [
+    "And what is right speech?",
+    "Refraining from speech that’s false, backbiting, harsh, or nonsensical.",
+    "This is called right speech."
+   ],
+   "segments": [
+    "sn45.8:5.1",
+    "sn45.8:5.2",
+    "sn45.8:5.3"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-action": {
+   "cite": "SN 45.8:6.1–6.3",
+   "title": "Analysis",
+   "lines": [
+    "And what is right action?",
+    "Refraining from killing living creatures, stealing, and unchastity.",
+    "This is called right action."
+   ],
+   "segments": [
+    "sn45.8:6.1",
+    "sn45.8:6.2",
+    "sn45.8:6.3"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-livelihood": {
+   "cite": "SN 45.8:7.1–7.3",
+   "title": "Analysis",
+   "lines": [
+    "And what is right livelihood?",
+    "It’s when a noble disciple gives up wrong livelihood and earns a living by right livelihood.",
+    "This is called right livelihood."
+   ],
+   "segments": [
+    "sn45.8:7.1",
+    "sn45.8:7.2",
+    "sn45.8:7.3"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-effort": {
+   "cite": "SN 45.8:8.1–8.6",
+   "title": "Analysis",
+   "lines": [
+    "And what is right effort?",
+    "It’s when a mendicant generates enthusiasm, tries, makes an effort, exerts the mind, and strives so that bad, unskillful qualities don’t arise.",
+    "They generate enthusiasm, try, make an effort, exert the mind, and strive so that bad, unskillful qualities that have arisen are given up.",
+    "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities arise.",
+    "They generate enthusiasm, try, make an effort, exert the mind, and strive so that skillful qualities that have arisen remain, are not lost, but increase, mature, and are fully developed.",
+    "This is called right effort."
+   ],
+   "segments": [
+    "sn45.8:8.1",
+    "sn45.8:8.2",
+    "sn45.8:8.3",
+    "sn45.8:8.4",
+    "sn45.8:8.5",
+    "sn45.8:8.6"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-mindfulness": {
+   "cite": "SN 45.8:9.1–9.6",
+   "title": "Analysis",
+   "lines": [
+    "And what is right mindfulness?",
+    "It’s when a mendicant meditates by observing an aspect of the body—keen, aware, and mindful, rid of covetousness and displeasure for the world.",
+    "They meditate observing an aspect of feelings—keen, aware, and mindful, rid of covetousness and displeasure for the world.",
+    "They meditate observing an aspect of the mind—keen, aware, and mindful, rid of covetousness and displeasure for the world.",
+    "They meditate observing an aspect of principles—keen, aware, and mindful, rid of covetousness and displeasure for the world.",
+    "This is called right mindfulness."
+   ],
+   "segments": [
+    "sn45.8:9.1",
+    "sn45.8:9.2",
+    "sn45.8:9.3",
+    "sn45.8:9.4",
+    "sn45.8:9.5",
+    "sn45.8:9.6"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "def-concentration": {
+   "cite": "SN 45.8:10.1–10.6",
+   "title": "Analysis",
+   "lines": [
+    "And what is right immersion?",
+    "It’s when a mendicant, quite secluded from sensual pleasures, secluded from unskillful qualities, enters and remains in the first absorption, which has the rapture and bliss born of seclusion, while placing the mind and keeping it connected.",
+    "As the placing of the mind and keeping it connected are stilled, they enter and remain in the second absorption, which has the rapture and bliss born of immersion, with internal clarity and mind at one, without placing the mind and keeping it connected.",
+    "And with the fading away of rapture, they enter and remain in the third absorption, where they meditate with equanimity, mindful and aware, experiencing for themselves the bliss of which the noble ones declare, ‘Equanimous and mindful, one meditates in bliss.’",
+    "With the giving up of pleasure and pain and the disappearance of former happiness and sadness, they enter and remain in the fourth absorption, without pleasure or pain, with pure equanimity and mindfulness.",
+    "This is called right immersion.”"
+   ],
+   "segments": [
+    "sn45.8:10.1",
+    "sn45.8:10.2",
+    "sn45.8:10.3",
+    "sn45.8:10.4",
+    "sn45.8:10.5",
+    "sn45.8:10.6"
+   ],
+   "url": "https://suttacentral.net/sn45.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "middle-way": {
+   "cite": "SN 56.11:2.1–2.4",
+   "title": "Rolling Forth the Wheel of Dhamma",
+   "lines": [
+    "“Mendicants, these two extremes should not be cultivated by one gone forth.",
+    "What two?",
+    "Indulgence in sensual pleasures, which is low, crude, ordinary, ignoble, and pointless. And indulgence in self-mortification, which is painful, ignoble, and pointless.",
+    "Avoiding these two extremes, the Realized One understood the middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment."
+   ],
+   "segments": [
+    "sn56.11:2.1",
+    "sn56.11:2.2",
+    "sn56.11:2.3",
+    "sn56.11:2.4"
+   ],
+   "url": "https://suttacentral.net/sn56.11/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "middle-way-path": {
+   "cite": "SN 56.11:3.1–3.4",
+   "title": "Rolling Forth the Wheel of Dhamma",
+   "lines": [
+    "And what is that middle way of practice?",
+    "It is simply this noble eightfold path, that is:",
+    "right view, right purpose, right speech, right action, right livelihood, right effort, right mindfulness, and right immersion.",
+    "This is that middle way of practice, which gives vision and knowledge, and leads to peace, direct knowledge, awakening, and extinguishment."
+   ],
+   "segments": [
+    "sn56.11:3.1",
+    "sn56.11:3.2",
+    "sn56.11:3.3",
+    "sn56.11:3.4"
+   ],
+   "url": "https://suttacentral.net/sn56.11/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "three-spectrums": {
+   "cite": "MN 44:11.3–11.5",
+   "title": "The Shorter Elaboration",
+   "lines": [
+    "Right speech, right action, and right livelihood: these things are included in the spectrum of ethics.",
+    "Right effort, right mindfulness, and right immersion: these things are included in the spectrum of immersion.",
+    "Right view and right purpose: these things are included in the spectrum of wisdom.”"
+   ],
+   "segments": [
+    "mn44:11.3",
+    "mn44:11.4",
+    "mn44:11.5"
+   ],
+   "url": "https://suttacentral.net/mn44/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "view-first": {
+   "cite": "MN 117:4.1–4.3",
+   "title": "The Great Forty",
+   "lines": [
+    "In this context, right view comes first.",
+    "And how does right view come first?",
+    "When you understand wrong view as wrong view and right view as right view, that’s your right view."
+   ],
+   "segments": [
+    "mn117:4.1",
+    "mn117:4.2",
+    "mn117:4.3"
+   ],
+   "url": "https://suttacentral.net/mn117/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "seven-supports": {
+   "cite": "MN 117:3.1–3.4",
+   "title": "The Great Forty",
+   "lines": [
+    "“And what is noble right immersion with its vital conditions and its prerequisites?",
+    "They are: right view, right purpose, right speech, right action, right livelihood, right effort, and right mindfulness.",
+    "Unification of mind with these seven factors as prerequisites",
+    "is called noble right immersion ‘with its vital conditions’ and also ‘with its prerequisites’."
+   ],
+   "segments": [
+    "mn117:3.1",
+    "mn117:3.2",
+    "mn117:3.3",
+    "mn117:3.4"
+   ],
+   "url": "https://suttacentral.net/mn117/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "kalamas": {
+   "cite": "AN 3.65:4.1–4.3",
+   "title": "With the Kālāmas of Kesamutta",
+   "lines": [
+    "Please, Kālāmas, don’t go by oral transmission, don’t go by lineage, don’t go by testament, don’t go by canonical authority, don’t rely on logic, don’t rely on inference, don’t go by reasoned train of thought, don’t go by the acceptance of a view after deliberation, don’t go by the appearance of competence, and don’t think ‘The ascetic is our respected teacher.’",
+    "But when you know for yourselves:",
+    "‘These things are unskillful, blameworthy, criticized by sensible people, and when you undertake them, they lead to harm and suffering’, then you should give them up."
+   ],
+   "segments": [
+    "an3.65:4.1",
+    "an3.65:4.2",
+    "an3.65:4.3"
+   ],
+   "url": "https://suttacentral.net/an3.65/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "intention-leads-1": {
+   "cite": "Dhp 1",
+   "title": "Sayings of the Dhamma",
+   "lines": [
+    "Intention is the leader of things;",
+    "intention is first, they’re made by intention.",
+    "If with corrupt intent",
+    "you speak or act,",
+    "suffering follows you,",
+    "like a wheel, the ox’s foot."
+   ],
+   "segments": [
+    "dhp1:1",
+    "dhp1:2",
+    "dhp1:3",
+    "dhp1:4",
+    "dhp1:5",
+    "dhp1:6"
+   ],
+   "url": "https://suttacentral.net/dhp1-20/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "intention-leads-2": {
+   "cite": "Dhp 2",
+   "title": "Sayings of the Dhamma",
+   "lines": [
+    "Intention is the leader of things;",
+    "intention is first, they’re made by intention.",
+    "If with pure intent",
+    "you speak or act,",
+    "happiness follows you",
+    "like a shadow that never leaves."
+   ],
+   "segments": [
+    "dhp2:1",
+    "dhp2:2",
+    "dhp2:3",
+    "dhp2:4",
+    "dhp2:5",
+    "dhp2:6"
+   ],
+   "url": "https://suttacentral.net/dhp1-20/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "hatred-love": {
+   "cite": "Dhp 5",
+   "title": "Sayings of the Dhamma",
+   "lines": [
+    "For never is hatred",
+    "laid to rest by hate,",
+    "it’s laid to rest by love:",
+    "this is an ancient teaching."
+   ],
+   "segments": [
+    "dhp5:1",
+    "dhp5:2",
+    "dhp5:3",
+    "dhp5:4"
+   ],
+   "url": "https://suttacentral.net/dhp1-20/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "two-kinds-of-thought": {
+   "cite": "MN 19:2.2–2.6",
+   "title": "Two Kinds of Thought",
+   "lines": [
+    "‘Why don’t I meditate by continually dividing my thoughts into two classes?’",
+    "So I assigned sensual, malicious, and cruel thoughts",
+    "to one class.",
+    "And I assigned thoughts of renunciation, good will, and harmlessness",
+    "to the second class."
+   ],
+   "segments": [
+    "mn19:2.2",
+    "mn19:2.3",
+    "mn19:2.4",
+    "mn19:2.5",
+    "mn19:2.6"
+   ],
+   "url": "https://suttacentral.net/mn19/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "heart-inclines": {
+   "cite": "MN 19:6.1",
+   "title": "Two Kinds of Thought",
+   "lines": [
+    "Whatever a mendicant frequently thinks about and considers becomes their heart’s inclination."
+   ],
+   "segments": [
+    "mn19:6.1"
+   ],
+   "url": "https://suttacentral.net/mn19/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "boundless-heart": {
+   "cite": "Snp 1.8:7.1–7.4",
+   "title": "The Discourse on Love",
+   "lines": [
+    "Even as a mother would protect with her life",
+    "her child, her only child,",
+    "so too for all creatures",
+    "unfold a boundless heart."
+   ],
+   "segments": [
+    "snp1.8:7.1",
+    "snp1.8:7.2",
+    "snp1.8:7.3",
+    "snp1.8:7.4"
+   ],
+   "url": "https://suttacentral.net/snp1.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "none-deceive": {
+   "cite": "Snp 1.8:6.1–6.4",
+   "title": "The Discourse on Love",
+   "lines": [
+    "Let none deceive another,",
+    "nor look down on anyone anywhere.",
+    "Though provoked or aggrieved,",
+    "let them not wish pain on each other."
+   ],
+   "segments": [
+    "snp1.8:6.1",
+    "snp1.8:6.2",
+    "snp1.8:6.3",
+    "snp1.8:6.4"
+   ],
+   "url": "https://suttacentral.net/snp1.8/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "well-spoken": {
+   "cite": "AN 5.198:1.1–1.3",
+   "title": "Well-Spoken Words",
+   "lines": [
+    "“Mendicants, speech that has five factors is well spoken, not poorly spoken. It’s blameless and is not criticized by sensible people.",
+    "What five?",
+    "It is speech that is timely, true, gentle, beneficial, and loving."
+   ],
+   "segments": [
+    "an5.198:1.1",
+    "an5.198:1.2",
+    "an5.198:1.3"
+   ],
+   "url": "https://suttacentral.net/an5.198/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "mirror": {
+   "cite": "MN 61:8.1–8.4",
+   "title": "Advice to Rāhula at Ambalaṭṭhika",
+   "lines": [
+    "What do you think, Rāhula?",
+    "What is the purpose of a mirror?”",
+    "“It’s for checking your reflection, sir.”",
+    "“In the same way, deeds of body, speech, and mind should be done only after repeated checking."
+   ],
+   "segments": [
+    "mn61:8.1",
+    "mn61:8.2",
+    "mn61:8.3",
+    "mn61:8.4"
+   ],
+   "url": "https://suttacentral.net/mn61/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "mirror-before": {
+   "cite": "MN 61:9.1–9.3",
+   "title": "Advice to Rāhula at Ambalaṭṭhika",
+   "lines": [
+    "When you want to act with the body, you should check on that same deed:",
+    "‘Does this act with the body that I want to do lead to hurting myself, hurting others, or hurting both?",
+    "Is it unskillful, with suffering as its outcome and result?’"
+   ],
+   "segments": [
+    "mn61:9.1",
+    "mn61:9.2",
+    "mn61:9.3"
+   ],
+   "url": "https://suttacentral.net/mn61/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "five-trades": {
+   "cite": "AN 5.177:1.1–1.3",
+   "title": "Trades",
+   "lines": [
+    "“Mendicants, a lay follower should not engage in these five trades.",
+    "What five?",
+    "Trade in weapons, living creatures, meat, intoxicants, and poisons."
+   ],
+   "segments": [
+    "an5.177:1.1",
+    "an5.177:1.2",
+    "an5.177:1.3"
+   ],
+   "url": "https://suttacentral.net/an5.177/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "four-happinesses": {
+   "cite": "AN 4.62:2.3",
+   "title": "Debtlessness",
+   "lines": [
+    "The happiness of ownership, using wealth, debtlessness, and blamelessness."
+   ],
+   "segments": [
+    "an4.62:2.3"
+   ],
+   "url": "https://suttacentral.net/an4.62/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "blamelessness": {
+   "cite": "AN 4.62:6.1–6.3",
+   "title": "Debtlessness",
+   "lines": [
+    "And what is the happiness of blamelessness?",
+    "It’s when a noble disciple has blameless conduct by way of body, speech, and mind.",
+    "When he reflects on this, he’s filled with pleasure and happiness."
+   ],
+   "segments": [
+    "an4.62:6.1",
+    "an4.62:6.2",
+    "an4.62:6.3"
+   ],
+   "url": "https://suttacentral.net/an4.62/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "six-drains": {
+   "cite": "DN 31:7.1–7.2",
+   "title": "Advice to Sigālaka",
+   "lines": [
+    "“What six drains on wealth do they avoid?",
+    "Habitually engaging in the following things is a drain on wealth: beer, wine, and liquor intoxicants; roaming the street markets at night; frequenting festivals; gambling; bad friends; laziness."
+   ],
+   "segments": [
+    "dn31:7.1",
+    "dn31:7.2"
+   ],
+   "url": "https://suttacentral.net/dn31/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "bees": {
+   "cite": "DN 31:26.11–26.12",
+   "title": "Advice to Sigālaka",
+   "lines": [
+    "They pick up riches as bees",
+    "roaming round pick up pollen."
+   ],
+   "segments": [
+    "dn31:26.11",
+    "dn31:26.12"
+   ],
+   "url": "https://suttacentral.net/dn31/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "four-efforts": {
+   "cite": "AN 4.14:1.1–1.3",
+   "title": "Restraint",
+   "lines": [
+    "“Mendicants, there are these four efforts.",
+    "What four?",
+    "The efforts to restrain, to give up, to develop, and to preserve."
+   ],
+   "segments": [
+    "an4.14:1.1",
+    "an4.14:1.2",
+    "an4.14:1.3"
+   ],
+   "url": "https://suttacentral.net/an4.14/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "restraint": {
+   "cite": "AN 4.14:1.4–1.6",
+   "title": "Restraint",
+   "lines": [
+    "And what, mendicants, is the effort to restrain?",
+    "When a mendicant sees a sight with their eyes, they don’t get caught up in the features and details.",
+    "If the faculty of sight were left unrestrained, bad unskillful qualities of covetousness and displeasure would become overwhelming. For this reason, they practice restraint, protecting the faculty of sight, and achieving its restraint."
+   ],
+   "segments": [
+    "an4.14:1.4",
+    "an4.14:1.5",
+    "an4.14:1.6"
+   ],
+   "url": "https://suttacentral.net/an4.14/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "breathing-sit": {
+   "cite": "MN 118:17.1–17.2",
+   "title": "Mindfulness of Breathing",
+   "lines": [
+    "It’s when a mendicant—gone to a wilderness, or to the root of a tree, or to an empty hut—sits down cross-legged, sets their body straight, and brings mindfulness to the present.",
+    "Just mindful, they breathe in. Mindful, they breathe out."
+   ],
+   "segments": [
+    "mn118:17.1",
+    "mn118:17.2"
+   ],
+   "url": "https://suttacentral.net/mn118/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "breathing-know": {
+   "cite": "MN 118:18.1–18.2",
+   "title": "Mindfulness of Breathing",
+   "lines": [
+    "Breathing in heavily they know: ‘I’m breathing in heavily.’ Breathing out heavily they know: ‘I’m breathing out heavily.’",
+    "Breathing in lightly they know: ‘I’m breathing in lightly.’ Breathing out lightly they know: ‘I’m breathing out lightly.’"
+   ],
+   "segments": [
+    "mn118:18.1",
+    "mn118:18.2"
+   ],
+   "url": "https://suttacentral.net/mn118/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  },
+  "mindfulness-path": {
+   "cite": "MN 10:2.1",
+   "title": "Mindfulness Meditation",
+   "lines": [
+    "“Mendicants, the four kinds of mindfulness meditation are the path to convergence. They are in order to purify sentient beings, to get past sorrow and crying, to make an end of pain and sadness, to discover the system, and to realize extinguishment."
+   ],
+   "segments": [
+    "mn10:2.1"
+   ],
+   "url": "https://suttacentral.net/mn10/en/sujato",
+   "license": "CC0",
+   "translator": "Bhikkhu Sujato"
+  }
+ }
+}
